@@ -1,7 +1,34 @@
-*.swp
-*.pyc
+#############
+# vim files #
+#############
+*\.swp
+*~
+\#*\#
+
+#################
+# pycharm files #
+#################
+\.idea
+
+##########################
+# Python compiled source #
+##########################
+*\.pyc
+*\.pyo
+build/
+dist/
+doc/_build/
+
+#############
+# Egg info  #
+#############
 ncbi_genome_download.egg-info/*
+
+###################
+# coverage files  #
+###################
 .coverage
 htmlcov/*
+
 .cache/*
-dist/*
+
